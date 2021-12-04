@@ -1,0 +1,8 @@
+const kelvin = 0; //variable 'kelvin' stores the forecast as constant
+let celcius = kelvin - 273; //celcius stores the forecast 'kelvin' in Celcius
+let fahrenheit =celcius*(9/5)+32; //converting celcius to Fahrenheit with decimals
+fahrenheit=Math.floor(fahrenheit); //getting rid of the decimals
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+let newton=celcius*(33/100); //converting celcius to Newton Scale with decimals
+newton=Math.floor(newton); //getting rid of the decimals
+console.log(`The temperature is ${newton} on Newton scale.`);

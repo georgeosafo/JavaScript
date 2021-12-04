@@ -1,0 +1,9 @@
+const myAge = 26; //myAge saved as constant
+let earlyYears=2; // the first two years of the dog in human years
+earlyYears*=10.5; //the first two years of the dog in dog years
+laterYears=myAge-2; //laterYears stores number of human years of which each is counted as 4 dog years
+laterYears*=4; //Number of dog years in the human years left, stored as laterYears
+console.log(earlyYears, laterYears);
+myAgeInDogYears=earlyYears+laterYears; //computing my age in dog years
+myName = 'George Osafo'.toLowerCase(); //This variables stores my name in small caps
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} in dog years.`);//Printing results to console with some strings
